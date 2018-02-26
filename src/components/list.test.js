@@ -12,7 +12,7 @@ describe('<List />', () => {
     });
 
     it('Renders without crashing', () => {
-        shallow(<List title="Foo" />);
+        console.log(shallow(<List title="Foo" />));
     });
 
     it('Renders the title', () => {
